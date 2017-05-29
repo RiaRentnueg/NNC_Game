@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_game_textView">
+        <EditTextPreference
+            android:defaultValue="@string/settings_default_user_name"
+            android:key="@string/key_pref_user_name"
+            android:title="@string/settings_user_name" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_pref_sound_effects"
+            android:title="@string/settings_sound_effects" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_pref_background_music"
+            android:title="@string/settings_music" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_push_notifications">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_pref_push_notifications"
+            android:title="@string/settings_push_activated" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

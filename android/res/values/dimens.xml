@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--general-->
+    <dimen name="activity_general_padding">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">5dp</dimen>
+    <dimen name ="text_general_size">30sp</dimen>
+    <dimen name="margin_top">150dp</dimen>
+    <dimen name="button_size">50dp</dimen>
+    <dimen name="margin_bottom">8dp</dimen>-
+    <!--settings-->
+    <dimen name="text_settings_size">20sp</dimen>
+    <dimen name="text_progress_size">20sp</dimen>
+    <!--buttonLayout-->
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="corner_radius">10dp</dimen>
+    <!--gameMain-->
+    <dimen name="sun_button_height">140dp</dimen>
+    <dimen name="sun_button_width">140dp</dimen>
+    <dimen name="sun_button_textsize">17sp</dimen>
+    <!--highscore-->
+    <dimen name="list_text_size">20sp</dimen>
+    <!--MultiplechoiceDialog-->
+    <dimen name="multiple_choice_dialog_message_text_size">18sp</dimen>
+    <dimen name="multiple_choice_dialog_question_text_size">20sp</dimen>
+
+
+
+</resources>

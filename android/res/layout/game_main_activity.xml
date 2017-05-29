@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/game_main_toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_general_padding">
+
+
+                <Button
+                    android:id="@+id/game_update_weather_button"
+                    android:layout_gravity="right"
+                    android:layout_width="@dimen/sun_button_width"
+                    android:layout_height="@dimen/sun_button_height"
+
+                    android:text="@string/game_weather"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sun_button_textsize"
+
+                    android:background="@drawable/weather_button"
+                    android:layout_marginBottom="@dimen/margin_bottom" />
+
+                <Button
+                    android:id="@+id/game_start_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_size"
+                    android:text="@string/game_start"
+                    android:textColor="@color/text_white"
+                    android:textSize="@dimen/text_general_size"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:background="@drawable/my_button"
+
+                    />
+
+                <Button
+                    android:id="@+id/game_highscore_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_size"
+                    android:text="@string/game_highscore"
+                    android:textColor="@color/text_white"
+                    android:textSize="@dimen/text_general_size"
+                    android:background="@drawable/my_button"
+                    android:layout_marginBottom="@dimen/margin_bottom" />
+
+                <Button
+                    android:id="@+id/game_help_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_size"
+                    android:text="@string/game_help"
+                    android:textColor="@color/text_white"
+
+                    android:textSize="@dimen/text_general_size"
+                    android:background="@drawable/my_button"
+                    android:layout_marginBottom="@dimen/margin_bottom" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

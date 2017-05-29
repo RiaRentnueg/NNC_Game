@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">\u0020NerdyNumeralChallenge</string>
+    <string name="ok_string">ok</string>
+
+    <!--Highscore-->
+    <string name="highscore_points">Punkte</string>
+    <string name="highscore_rank">Platz</string>
+    <string name="highscore_name">Name</string>
+
+    <!--Settings-->
+    <string name="settings_game_textView">Spiel</string>
+    <string name="settings_sound_effects">Soundeffekte</string>
+    <string name="settings_music">Hintergrundmusik</string>
+    <string name="settings_push_notifications">Push-Benachrichtigungen</string>
+    <string name="settings_push_activated">aktivieren</string>
+    <string name="settings_general">Allgemein</string>
+    <string name="settings_user_name">Benutzername</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_legal_notice">Impressum</string>
+    <string name="settings_default_user_name">Nerd</string>
+    <string name="key_pref_user_name">pref_user_name</string>
+    <string name="key_pref_push_notifications">pref_notifications</string>
+    <string name="key_pref_background_music">pref_music</string>
+    <string name="key_pref_sound_effects">pref_sound_effects</string>
+
+    <!--gameMain-->
+    <string name="game_start">Start!</string>
+    <string name="game_highscore">Highscore</string>
+    <string name="game_help">Hilfe</string>
+    <string name="game_weather">Wie ist das Wetter?</string>
+
+    <string name="location_permission_explanation">"Der Zugriff auf Ortsdaten wird benötigt, um den Hintergrund des Spiels an Ihre lokale Wettersituation anzupassen. Falls keine Verwendung von Ortsdaten erwünscht ist, wird der Default-Hintergrund genutzt.";</string>
+    <string name= "location_permission_headline">Zugriff auf Ortsdaten</string>
+    <string name="default_weather_toast">Default-Wetter: Die Sonne scheint!</string>
+    <string name="weather_toast_1">Wetter aktualisiert! Gerade\u0020 </string>
+    <string name="weather_toast_2">. Der Spielhintergrund wurde angepasst.</string>
+
+    <string name="weather_sunny">scheint die Sonne</string>
+    <string name="weather_cloudy">ist es wolkig</string>
+    <string name="weather_rainy">regnet es</string>
+    <string name="weather_snowy">schneit es</string>
+    <string name="weather_default">ist es wolkig</string>
+
+    <!--help-->
+    <string name="game_help_explanation">
+        Dem Nerd stellen sich allerlei Hindernisse in den Weg. Gruben müssen übersprungen und weiblichen Wesen ausgewichen werden,
+        gleichzeitig gilt es Umrechnungsaufgaben zu lösen.\n\n
+        Oben links ist der derzeitige Punktestand zu sehen. Oben rechts wird angezeigt, wie viele Leben der Nerd noch hat.\n
+        Wenn oben links eine rote Zahl erscheint, kann eine Aufgabe gelöst werden. In Klammern hinter der roten Zahl ist vermerkt, ob es sich um das Hex- oder Binärsystem handelt. Die Lösungen sind immer im Dezimalsystem gegeben und mit den Nummern 1-4 gekennzeichnet. Der Nerd muss nun das Telefon mit der Nummer der richtigen Lösung anspringen. Gelingt das, werden entsprechend entweder bereits verlorene Leben wieder aufgefüllt oder man erhält einen Punktebonus. Springt man die falsche Lösung an, verliert man ein Leben.\n
+        Um zu Springen, tippe auf den Bildschirm.\n
+        Wenn der Nerd in Gruben fällt, gibt es keine Rettung mehr und man hat verloren. Beim Zusammenstoß mit weiblichen Wesen ist allerdings noch Rettung möglich! Dem absolut unangenehmen Ereignis - einem Gespräch mit einer Frau - kann der Nerd entkommen! Dazu muss er eine Aufgabe im Binärsystem richtig lösen.
+        Falls dies nicht innerhalb einer vorgegebenen Zeit gelingt, ist ein Leben verloren.\n
+        Mit Verlust des letzten Lebens endet das Spiel. \n\n
+        Und übrigens: Mit Tippen auf den Sonnen-Button, oben rechts über dem Startknopf, passt sich der Hintergrund des Spiels an das aktuelle Wetter an. \n\n
+        Los geht’s!\n
+    </string>
+
+    <!--Toolbar-->
+    <string name="game_main_toolbar_headline">NerdyNumeralChallenge</string>
+    <string name="game_highscore_toolbar_headline">Highscore</string>
+    <string name="game_help_toolbar_headline">Hilfe</string>
+
+    <!--Highscore-->
+    <string name="no_highscore_notice">Derzeit sind keine Highscores vorhanden!</string>
+    <string name="highscore_activity_content_description_image">trophy</string>
+
+    <!--Dialog-->
+    <string name="dialog_negative_button">Nein</string>
+    <string name="dialog_positive_button">Ok</string>
+
+    <!--HighscoreDialog-->
+    <string name="highscore_dialog_title">Du hast einen neuen Highscore!</string>
+    <string name="highscore_dialog_message_part_one">Dein aktueller Name ist\u0020</string>
+    <string name="highscore_dialog_message_part_two">. Möchtest du einen neuen Namen eingeben?</string>
+
+    <!--MultipleChoiceDialog-->
+    <string name="multiple_choice_dialog_message">Rette dein Leben indem du für die gegebene Zahl im Binärsystem die richtige Entsprechung im Dezimalsystem auswählst.</string>
+
+</resources>
